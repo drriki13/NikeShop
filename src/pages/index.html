@@ -12,10 +12,10 @@
 <body class="bg-black text-white">
 
     <!-- Block -->
-    <div class="mx-auto h-screen">
+    <div class="flex flex-col mx-auto h-screen">
 
         <!-- NavBar -->
-        <div class="flex justify-between items-center mt-14 mx-16 mb-28">
+        <div class="flex justify-between items-center pt-14 px-16 pb-28">
             <a href="#">
                 <img class="w-[143px] h-[51px]" src="../assets/images/logo.png" alt="logo">
             </a>
@@ -38,12 +38,23 @@
         </div>
 
         <!-- Jumbotron -->
-        <div class="jumbotron relative flex flex-col justify-between items-center h-96">
-            <div class="text-7xl font-bold">AIR Beyond Compare</div>
-            <div class="absolute">
-                <img src="../assets/images/banner.png" alt="banner">
+        <div class="relative flex flex-col justify-between items-center h-full">
+            <div class="absolute flex items-center justify-center h-full w-full bg-black opacity-10 -z-20">
+                <img src="../assets/images/NIKE.png" alt="NIKE">
             </div>
+            <div class="text-7xl font-bold">AIR Beyond Compare</div>
+            <div class="relative flex flex-1 w-full">
+                <div class="absolute flex justify-center items-center w-full h-full -z-10">
+                    <img class="" src="../assets/images/banner.png" alt="banner">
+                </div>
+            </div>
+            
             <div class="text-3xl">Explore the best Air Max for fall & beyond</div>
+        </div>
+
+        <!-- divider -->
+        <div class="flex items-center justify-center w-full py-[110px]">
+            <div class="bg-[#CB69C1] w-[150px] h-[10px] rounded-full"></div>
         </div>
         
     </div>
